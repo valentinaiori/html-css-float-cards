@@ -14,10 +14,51 @@ body{
     font-family: sans-serif;
 }
 
+h1{
+    text-align: center;
+    margin: 50px;
+}
 
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.clearfix > div {
+    width:calc(100% / 3);
+}
+
+img{
+    width: 20%;
+}
+
+.card-item{
+    background-color: black;
+}
+
+.text-item{
+    color: white;
+    margin: 15px;
+}
 
 
-
+a{
+    color: deepskyblue;
+}
 
 /* utilies */
